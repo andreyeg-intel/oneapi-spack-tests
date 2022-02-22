@@ -9,8 +9,8 @@ on:
   pull_request:
 
 env:
-  SPACK_REPO: spack/spack
-  SPACK_BRANCH: develop
+  SPACK_REPO: andreyeg-intel/spack
+  SPACK_BRANCH: features/oneapi_multi_instance
 
 jobs:
   checks:
